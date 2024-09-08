@@ -1,0 +1,45 @@
+ul {
+    display: flex;
+    gap: 2em;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: aqua;
+    padding: 20px;
+}
+
+#ShowAddBookDialog {
+    background-color: aquamarine;
+}
+
+.deleteBook {
+    display: block;
+    margin-top: 20px;
+    background-color: lightcoral;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#ReadThisLabel {
+    margin-top: 10px;
+}
+
+#dialogBtns {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#confirmButton {
+    background-color: lightskyblue;
+}
+
